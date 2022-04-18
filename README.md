@@ -1,10 +1,10 @@
 # reddit-app
 
 ## Wireframe
- - [ ] Main Components - How are the arranged?
+ - [x] Main Components - How are the arranged?
  - [ ] User flow and transitions
- - [ ] Error states
- - [ ] How your application will look at different screen sizes
+ - [x] Error states
+ - [x] How your application will look at different screen sizes
 
 ![Wireframe Image][Wireframe Image] \
 ![Error State][Error State] \
