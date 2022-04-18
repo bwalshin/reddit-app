@@ -7,6 +7,8 @@
  - [ ] How your application will look at different screen sizes
 
 ![Wireframe Image][Wireframe Image] \
+![Error State][Error State] \
+![Styles][Styles] \
 [Wireframe Miro Board]
 
 ## Technologies used
@@ -33,5 +35,9 @@
   [Codecademy Project Tasks]: https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-portfolio-project-reddit-client/modules/wdcp-22-reddit-client/kanban_projects/reddit-client
 
   [Wireframe Image]: https://github.com/bwalshin/reddit-app/blob/main/images/wireframe.png "Wireframe Image"
+
+  [Error State]: https://github.com/bwalshin/reddit-app/blob/main/images/error-state.png "Error State"
+
+  [Styles]: https://github.com/bwalshin/reddit-app/blob/main/images/styles.png "Styles"
 
   [Wireframe Miro Board]: https://miro.com/app/board/uXjVO8Y0A8w=/
