@@ -1,4 +1,23 @@
 # reddit-app
+
+## Wireframes
+ - [ ] Main Components - How are the arranged?
+ - [ ] User flow and transitions
+ - [ ] Error states
+ - [ ] How your application will look at different screen sizes
+
+## Technologies used
+- [ ] How to break up your design into components
+- [ ] *application*
+- [ ] *application*
+
+## Features
+- [ ] Application Color Palette
+
+## Future work
+- [ ] *Task* 
+- [ ] *Task* 
+
 ### Links
 - [Group Project Overview]
 - [Codecademy Project Tasks]
