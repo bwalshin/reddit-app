@@ -1,38 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  color: #222;
-  width: 100%;
-  background-color: #1d3557;
-}
-
 :root {
-  --sep: rgb(200, 200, 200);
+  --color-background: #1d3557;
+  --color-background-secondary: #F2F2F2;
+  --background-third: #457b9d;
+  --color-foreground: #F2F2F2;
+  --color-border: #A6A6A6;
+  --color-text-header: #000000;
+  --color-text-body: #000000;
+  --color-text-header-second: #F2F2F2;
+  --color-text-body-second: #F2F2F2;
+  --color-text-secondary: ##e63946;
+  --color-text-invert: #ffffff;
+  --color-text-link: #e63946;
+  --color-branding: #e63946;
+  --color-branding-transparent: #e6394640;
+
+  --color-alert: #ff304f;
+  --color-success: #45b81f;
+  --color-on-hover: #0000000f;
+
+  --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  --box-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+
+  --spacing-0: 4px;
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 36px;
+  --spacing-5: 64px;
+
+  --radius: 4px;
+  --radius-2: 8px;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
+html,
+body {
+  background: var(--color-background);
+  color: var(--color-text-body);
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.heart {
-  color: red;
-}
-
-footer {
-  text-align: center;
-  margin-bottom: 20px;
+p {
+  margin: 0;
 }
