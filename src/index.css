@@ -14,19 +14,17 @@ body {
 
 section {
   display: grid;
-  grid-template-columns: 20% 2fr 1fr 20%;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
   grid-gap: var(--spacing-2);
   grid-template-areas: ". Main Aside .";
 }
 
 main {
-  padding-left: var(--spacing-2);
   grid-area: Main;
 }
 
 aside {
   grid-area: Aside;
-  padding-right: var(--spacing-2);
 }
 
 a {
@@ -34,7 +32,6 @@ a {
 }
 
 header {
-  grid-column: 1/-1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: var(--spacing-2);
@@ -46,8 +43,21 @@ header {
     grid-template-columns: 1fr;
   }
 
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   main {
-    grid-column: 1;
+    grid-column: 1/5;
     padding: 1rem;
+  }
+
+  aside {
+    display: none;
+  }
+
+  header {
+    grid-template-columns: 1fr 1fr;
   }
 }
