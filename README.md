@@ -1,9 +1,6 @@
 <div align="center">
 
-![Wireframe Image][Wireframe Image] \
-![Error State][Error State]
-![Styles][Styles] \
-[Wireframe Miro Board]
+![Reddit-App Final] [Reddit-App Final]
 
 </div>
 
@@ -11,6 +8,7 @@
 
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
+- [Wireframe](#wireframe)
 - [Codebase](#codebase)
   - [Technologies](#technologies)
   - [Folder structure](#folder-structure)
@@ -22,6 +20,13 @@
 
 ![Issues Badge]
 ![License Badge]
+
+## Wireframe
+
+![Wireframe Image][Wireframe Image] \
+![Error State][Error State]
+![Styles][Styles] \
+[Wireframe Miro Board]
 
 ## Codebase
 
@@ -101,6 +106,8 @@ Github Projects, Command line, Wireframes)
   [Error State]: https://github.com/bwalshin/reddit-app/blob/main/images/error-state.png "Error State"
 
   [Styles]: https://github.com/bwalshin/reddit-app/blob/main/images/styles.png "Styles"
+
+  [Reddit-App Final]: https://github.com/bwalshin/reddit-app/blob/main/images/reddit-app_final.png "Reddit-App Final"
 
   [Wireframe Miro Board]: https://miro.com/app/board/uXjVO8Y0A8w=/
 
