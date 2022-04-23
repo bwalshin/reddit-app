@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Wireframe Image][Wireframe Image] \
-![Error State][Error State] \
+![Error State][Error State]
 ![Styles][Styles] \
 [Wireframe Miro Board]
 
@@ -20,9 +20,8 @@
 
 ## Introduction
 
-https://shields.io
-![Issues Badge] [Github Issues]
-![License Badge] [Github License]
+![Issues Badge]
+![License Badge]
 
 ## Codebase
 
