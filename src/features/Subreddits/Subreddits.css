@@ -5,7 +5,7 @@
 
 .subreddit-card h2 {
   margin-top: 0;
-  color: var(--color-text-header-second);
+  color: var(--color-text-header);
 }
 
 .subreddit-card li {
