@@ -133,26 +133,26 @@ const Post = (props) => {
               <h3 className="post-title">{post.title}</h3>
             </div>
 
-              <div className="post-details">
-                <span className="author-details">
-                  <Avatar name={post.author} />
-                  <span className="author-username">{post.author}</span>
-                </span>
-                <span>{moment.unix(post.created_utc).fromNow()}</span>
-                <span className="post-comments-container">
-                  <button
-                    type="button"
-                    className={`icon-action-button ${
-                      post.showingComments && 'showing-comments'
-                    }`}
-                    onClick={() => onToggleComments(post.permalink)}
-                    aria-label="Show comments"
-                  >
-                    <TiMessage className="icon-action" />
-                  </button>
-                  {shortenNumber(post.num_comments, 1)}
-                </span>
-              </div>
+            <div className="post-details">
+              <span className="author-details">
+                <Avatar name={post.author} />
+                <span className="author-username">{post.author}</span>
+              </span>
+              <span>{moment.unix(post.created_utc).fromNow()}</span>
+              <span className="post-comments-container">
+                <button
+                  type="button"
+                  className={`icon-action-button ${
+                    post.showingComments && 'showing-comments'
+                  }`}
+                  onClick={() => onToggleComments(post.permalink)}
+                  aria-label="Show comments"
+                >
+                  <TiMessage className="icon-action" />
+                </button>
+                {shortenNumber(post.num_comments, 1)}
+              </span>
+            </div>
   
 
 

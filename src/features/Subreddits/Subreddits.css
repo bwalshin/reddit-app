@@ -8,12 +8,18 @@
   color: var(--color-text-header-second);
 }
 
+.subreddit-card li {
+  background: var(--color-background-secondary);
+  border-radius: var(--radius);
+  margin: 5px;
+}
+
 .subreddit-card button {
   background: none;
   border: none;
   display: flex;
   align-items: center;
-  color: var(--color-text-body-second);
+  color: var(--color-text-body);
   font-weight: 600;
   cursor: pointer;
   width: 100%;
