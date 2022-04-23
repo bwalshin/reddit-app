@@ -1,6 +1,6 @@
 <div align="center">
 
-![Reddit-App Final] [Reddit-App Final]
+![Reddit-App Final][Reddit-App Final]
 
 </div>
 
@@ -23,10 +23,10 @@
 
 ## Wireframe
 
+[Wireframe Miro Board]
 ![Wireframe Image][Wireframe Image] \
 ![Error State][Error State]
 ![Styles][Styles] \
-[Wireframe Miro Board]
 
 ## Codebase
 
