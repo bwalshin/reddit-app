@@ -1,46 +1,14 @@
-## Wireframe
- - [x] Main Components - How are the arranged?
- - [ ] User flow and transitions
- - [x] Error states
- - [x] How your application will look at different screen sizes
+<div align="center">
 
 ![Wireframe Image][Wireframe Image] \
 ![Error State][Error State] \
 ![Styles][Styles] \
 [Wireframe Miro Board]
 
-## Technologies used
-- [ ] How to break up your design into components
-- [ ] *application*
-- [ ] *application*
-
-## Features
-- [ ] Application Color Palette
-
-## Future work
-- [ ] *Task* 
-- [ ] *Task* 
-
-### Links
-- [Group Project Overview]
-- [Codecademy Project Tasks]
-
-
--------------
-
-<div align="center">
-
-* final product image here *
-
 </div>
 
 ## Table of contents
 
-- [Wireframe](#wireframe)
-- [Technologies used](#technologies-used)
-- [Features](#features)
-- [Future work](#future-work)
-  - [Links](#links)
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Codebase](#codebase)
@@ -53,8 +21,8 @@
 ## Introduction
 
 https://shields.io
-- issues
-- license
+![Issues Badge] [Github Issues]
+![License Badge] [Github License]
 
 ## Codebase
 
@@ -76,6 +44,7 @@ reddit-client/
 └── src        # Frontend SPA
 
 reddit-client/src
+├── api            # Api call / information
 ├── components     # Reusabble parts
 ├── features       # Redux slices
 ├── helpers        # Utilify functions
@@ -83,6 +52,17 @@ reddit-client/src
 ├── pages          # Application views
 ├── store          # Redux store configuration
 └── theme          # Material UI theme configuration
+
+reddit-client/src/components
+└── card           # Card call and setup of each post
+
+reddit-client/src/features
+├── Avatar         # Users avatar image
+├── Comment        # Post comment info
+├── Headar         # Page header
+├── Home           # Home page error interactions
+├── Post           # Individual post info
+└── Subreddits     # Side navigation of subreddits listed
 ```
 
 ### Code Style
@@ -124,3 +104,7 @@ Github Projects, Command line, Wireframes)
   [Styles]: https://github.com/bwalshin/reddit-app/blob/main/images/styles.png "Styles"
 
   [Wireframe Miro Board]: https://miro.com/app/board/uXjVO8Y0A8w=/
+
+  [Issues Badge]: https://img.shields.io/github/issues/bwalshin/reddit-app
+
+  [License Badge]: https://img.shields.io/github/license/bwalshin/reddit-app
