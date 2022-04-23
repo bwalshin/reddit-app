@@ -23,7 +23,7 @@
 
 ## Wireframe
 
-[Wireframe Miro Board]
+[Wireframe Miro Board] \
 ![Wireframe Image][Wireframe Image] \
 ![Error State][Error State]
 ![Styles][Styles] \
