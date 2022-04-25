@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Reddit-App Final][Reddit-App Final]
-[Hosted Site Link](stellar-gnome-96814d.netlify.app)
+[stellar-gnome-96814d.netlify.app](https://stellar-gnome-96814d.netlify.app)
 
 </div>
 
