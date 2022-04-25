@@ -98,7 +98,7 @@ const Post = (props) => {
           <div className="post-container">
 
             <div className="post-image-container">
-              <img src={post.url} alt="" sizes="5vw" className="post-image" />
+              <img src={post.url} alt="" className="post-image" />
             </div>
 
             <div className="post-subcontainer">
